@@ -112,10 +112,10 @@ fun JBEpinLogoHeader(
                     )
             ) {
                 Image(
-                    painter = painterResource(id = R.drawable.img_jb_epin_app_logo),
+                    painter = painterResource(id = R.drawable.ic_jb_epin_logo),
                     contentDescription = "JB EPIN Logo",
                     modifier = Modifier.fillMaxSize(),
-                    contentScale = ContentScale.Crop
+                    contentScale = ContentScale.Fit
                 )
             }
         }

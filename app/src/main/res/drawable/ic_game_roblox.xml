@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Dark Circle Badge Base -->
+    <path
+        android:fillColor="#111827"
+        android:pathData="M48,0A48,48 0,1 0,96,48A48,48 0,0 0,48,0Z" />
+    <!-- Tilted Square Base -->
+    <path
+        android:fillColor="#E5E7EB"
+        android:pathData="M30,22 L72,32 L62,74 L20,64 Z" />
+    <!-- Inner Hollow Square -->
+    <path
+        android:fillColor="#111827"
+        android:pathData="M41,40 L53,43 L50,55 L38,52 Z" />
+</vector>

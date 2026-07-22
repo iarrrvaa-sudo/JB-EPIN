@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Dark Gold Background -->
+    <path
+        android:fillColor="#1F1808"
+        android:pathData="M48,0A48,48 0,1 0,96,48A48,48 0,0 0,48,0Z" />
+    <!-- MLBB Wings Emblem / Sword -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M48,16L58,36L80,32L64,52L72,76L48,60L24,76L32,52L16,32L38,36Z" />
+    <path
+        android:fillColor="#FEF3C7"
+        android:pathData="M48,24L52,38L66,36L55,48L60,64L48,53L36,64L41,48L30,36L44,38Z" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "JB EPIN",
+  "description": "Game top-up, digital vouchers, and game account marketplace application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Dark Tactical Background -->
+    <path
+        android:fillColor="#121810"
+        android:pathData="M48,0A48,48 0,1 0,96,48A48,48 0,0 0,48,0Z" />
+    <!-- PUBG Level 3 Helmet Silhouette -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M28,32C28,20 36,16 48,16C60,16 68,20 68,32L68,52C68,64 58,72 48,72C38,72 28,64 28,52Z" />
+    <path
+        android:fillColor="#1F2937"
+        android:pathData="M32,36L64,36L64,48L32,48Z" />
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M36,40L60,40L60,44L36,44Z" />
+</vector>

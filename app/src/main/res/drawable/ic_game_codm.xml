@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Dark Tactical Badge -->
+    <path
+        android:fillColor="#181C14"
+        android:pathData="M48,0A48,48 0,1 0,96,48A48,48 0,0 0,48,0Z" />
+    <!-- CODM Shield Crest -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M24,20L72,20L72,50C72,66 58,76 48,80C38,76 24,66 24,50Z" />
+    <!-- Skull / Visor Mask Overlay -->
+    <path
+        android:fillColor="#111827"
+        android:pathData="M34,30L62,30L62,48L34,48Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,36L44,36L44,42L38,42Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,36L58,36L58,42L52,42Z" />
+</vector>

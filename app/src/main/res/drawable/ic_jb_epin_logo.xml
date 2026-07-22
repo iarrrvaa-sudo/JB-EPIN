@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Golden Orange Shield Outer -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M48,8L80,20V48C80,68 66,82 48,88C30,82 16,68 16,48V20L48,8Z" />
+    <!-- Dark Inner Shield -->
+    <path
+        android:fillColor="#0A0A0A"
+        android:pathData="M48,14L74,24V48C74,64 62,76 48,82C34,76 22,64 22,48V24L48,14Z" />
+    <!-- JB Monogram Wings -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M34,36H44V56C44,60 40,62 36,62H32V54H36V44H34V36ZM52,36H64C68,36 70,38 70,42C70,45 68,47 64,48C68,49 70,51 70,56C70,60 68,62 64,62H52V36ZM60,43V40H58V43H60ZM60,55V51H58V55H60Z" />
+</vector>

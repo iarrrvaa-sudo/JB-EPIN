@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.Shield
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -140,6 +141,32 @@ fun AuthScreen(
             } else {
                 Text("Buat Akun Baru", style = MaterialTheme.typography.titleLarge.copy(color = TextPrimary, fontWeight = FontWeight.Bold))
                 Text("Bergabung di platform game top up & marketplace", style = MaterialTheme.typography.bodySmall.copy(color = TextSecondary))
+
+                Spacer(modifier = Modifier.height(12.dp))
+
+                Surface(
+                    color = GamingDarkSurfaceVariant,
+                    shape = RoundedCornerShape(8.dp),
+                    border = BorderStroke(0.5.dp, GamingBrownBorder),
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Row(
+                        modifier = Modifier.padding(10.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.Shield,
+                            contentDescription = null,
+                            tint = OrangeGlow,
+                            modifier = Modifier.size(18.dp)
+                        )
+                        Spacer(modifier = Modifier.width(8.dp))
+                        Text(
+                            text = "Pendaftaran ini khusus untuk Akun Member/Pembeli. Akun Administrator diproteksi dan tidak bisa didaftarkan secara publik.",
+                            style = MaterialTheme.typography.bodySmall.copy(color = TextSecondary)
+                        )
+                    }
+                }
 
                 Spacer(modifier = Modifier.height(16.dp))
 
